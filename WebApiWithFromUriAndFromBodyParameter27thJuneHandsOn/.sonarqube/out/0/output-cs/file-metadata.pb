@@ -1,0 +1,14 @@
+
+vD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Controllers\EmpEducationController.csutf-8{
+rD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Controllers\EmployeeController.csutf-8á
+~D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Controllers\EmployeeOrganizationController.csutf-8Ç
+yD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Controllers\WeatherForecastController.csutf-8i
+`D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\EmpEducation.csutf-8e
+\D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Employee.csutf-8q
+hD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\EmployeeOrganization.csutf-8d
+[D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\Program.csutf-8l
+cD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\WeatherForecast.csutf-8¥
+®D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\obj\Debug\net6.0\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn.GlobalUsings.g.csutf-8ú
+êD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8≤
+¶D:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\obj\Debug\net6.0\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn.AssemblyInfo.csutf-8≈
+πD:\aspdotnet\CSharpOPPsRepo\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn\obj\Debug\net6.0\WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn.MvcApplicationPartsAssemblyInfo.csutf-8

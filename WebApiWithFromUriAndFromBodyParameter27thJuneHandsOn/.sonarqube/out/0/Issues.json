@@ -1,0 +1,528 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22128.4 (5d10d428)",
+        "semanticVersion": "4.1.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider declaring the property as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/EmployeeOrganization.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 23,
+                  "endLine": 6,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Non-constant fields should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 50,
+                  "endLine": 7,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'Summaries'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 9,
+                  "endLine": 12,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field '_logger' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 61,
+                  "endLine": 14,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 50,
+                  "endLine": 7,
+                  "endColumn": 96
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'Organizations'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'EmpEducations'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'Organizations' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 50,
+                  "endLine": 7,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2211",
+          "level": "note",
+          "message": "Non-constant fields should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 42,
+                  "endLine": 7,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 42,
+                  "endLine": 7,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'EmpEducations' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 42,
+                  "endLine": 7,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/WeatherForecastController.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 31,
+                  "endLine": 22,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 35,
+                  "endLine": 19,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 37,
+                  "endLine": 26,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeController.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 37,
+                  "endLine": 20,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmpEducationController.cs",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 43,
+                  "endLine": 40,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeOrganizationController.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 35,
+                  "endLine": 33,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/aspdotnet/CSharpOPPsRepo/WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn/Controllers/EmployeeController.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 39,
+                  "endLine": 34,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2211": {
+          "id": "CA2211",
+          "shortDescription": "Non-constant fields should not be visible",
+          "fullDescription": "Static fields that are neither constants nor read-only are not thread-safe. Access to such a field must be carefully controlled and requires advanced programming techniques to synchronize access to the class object.",
+          "defaultLevel": "note",
+          "helpUri": "https://docs.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2211",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "private or internal types or private members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
+            ]
+          }
+        },
+        "S2223": {
+          "id": "S2223",
+          "shortDescription": "Non-constant static fields should not be visible",
+          "fullDescription": "A static field that is neither constant nor read-only is not thread-safe. Correctly accessing these fields from different threads needs synchronization with locks. Improper synchronization may lead to unexpected results, thus publicly visible static fields are best suited for storing non-changing data shared by many consumers. To enforce this intent, these fields should be marked readonly or converted to constants.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2223",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2386": {
+          "id": "S2386",
+          "shortDescription": "Mutable fields should not be \"public static\"",
+          "fullDescription": "public static mutable fields of classes which are accessed directly should be protected to the degree possible. This can be done by reducing the accessibility of the field or by changing the return type to an immutable type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2386",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2971": {
+          "id": "S2971",
+          "shortDescription": "\"IEnumerable\" LINQs should be simplified",
+          "fullDescription": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable language integrated queries (LINQ) can be simplified",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields only used to store values without reading them later is a case of dead store. So changing the value of such field is useless and most probably indicates a serious error in the code.",
+          "defaultLevel": "note",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope",
+              "Unnecessary"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
