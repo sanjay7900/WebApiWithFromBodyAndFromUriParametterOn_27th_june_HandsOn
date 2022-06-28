@@ -55,5 +55,41 @@ namespace WebApiWithFromUriAndFromBodyParameter27thJuneHandsOn.Controllers
             }
             return BadRequest("No Data Available");
         }
+        [HttpPost]
+        public async Task<IActionResult> PutEmployeDetailUsingFromQuery([FromQuery] Employee employee)
+        {
+            _employees.Add(employee);
+            return NoContent();
+        }
+        [HttpPost]
+        public async Task<IActionResult> PutEmployeDetailUsingFromHeader([FromHeader] Employee employee)
+        {
+
+            _employees.Add(employee);
+
+            return NoContent();
+        }
+        [HttpPost("{id}/{name}/{age}/{address}")]
+        public async Task<IActionResult> PutEmployeDetailUsingFromRoute([FromRoute] Employee employee)
+        {
+            _employees.Add(employee);
+            return NoContent();
+        }
+        [HttpPost]
+        public async Task<IActionResult> SaveEmpAndEdu(SaveEmployeeAndEducation saveEmployeeAndEducation)
+        {
+            _employees.Add(saveEmployeeAndEducation.Employee);
+            EmpEducationController.EmpEducations.Add(saveEmployeeAndEducation.EmpEducation);
+            
+            return NoContent();
+        }
+        [HttpGet]
+        public  async Task<IActionResult> FromHeadrExample([FromHeader] string name ,[FromHeader] Employee employee)
+        {
+            return Ok($"my name is {name} and my is {employee.name} {employee.id} {employee.address} {employee.age}");
+        }
+
+
+
     }
 }
